@@ -1,0 +1,5 @@
+<%= form_for @ingredient do |f| %>
+	<% f.label_tag 'ingredient.name' %>
+	<% f.check_box_tag 'recipe[ingredient_id][]' %>
+
+<% end %>
